@@ -1,0 +1,78 @@
+body {
+    height: 2000px;
+    width: 1200px;
+    margin: auto;
+}
+.title {
+    font-size: 40px;
+    text-align: center;
+    background-color: bisque;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#map {
+    position: relative; top :100px;
+    height: 600px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+form{
+    width: 800px;
+    margin: 0 auto;
+    position: relative; top: 50px;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    resize: none;
+}
+
+#check {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    position: relative; top: 50px;
+    width: 100px;
+}
+
+#myMap{
+    position: relative;
+    top: 100px;
+}
+
+#printoutPanel{
+    position: relative;
+    margin-left: 420px;
+    top: 300px;
+    text-align: center;
+}
+
+#route{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#route select{
+    width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#route button{
+    width: 100px;
+    margin: 25px auto;
+    font-size: 20px;
+}
+
+#result{
+    margin: 0 auto;
+}
+#open{
+    margin: 0 auto;
+}
